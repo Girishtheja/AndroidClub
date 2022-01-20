@@ -8,26 +8,17 @@ export default function SignUp() {
     <Text style={{fontWeight:'bold',fontSize:40,paddingBottom:30}}>SignUp</Text>
     <TextInput style={styles.inputs} placeholder='Full Name'></TextInput>
     <TextInput style={styles.inputs} placeholder='E-Mail Address'></TextInput>
-    <TextInput className="MARGIN" secureTextEntry='true' style={[styles.inputs,{marginBottom:20}]} placeholder='Password'></TextInput>
-    
-    <Button 
-    title='SIGNUP' 
-    backgroundColor='#000' 
-    margin= '1%'
-    borderRadius= '10%'
-    color='#000'/>
+    <TextInput secureTextEntry='true' style={[styles.inputs,{marginBottom:20}]} placeholder='Password'></TextInput>
+    <Button title='SIGNUP' backgroundColor='#000' margin= '1%' color='#000'/>
     </View>
-       
   );
 }
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
     alignItems: 'center',
-    justifyContent: 'center',
-    
+    justifyContent: 'center',   
   },
   inputs:{
    height:'5%',
@@ -35,5 +26,4 @@ const styles = StyleSheet.create({
    marginBottom:25,
    borderBottomWidth:2,
   },
-
 });
