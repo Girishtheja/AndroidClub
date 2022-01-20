@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "SecondAssign",
+    "slug": "SecondAssign",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "SecondAssign"
+}
